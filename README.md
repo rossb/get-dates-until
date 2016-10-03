@@ -1,6 +1,10 @@
 # get-dates-until
 
-Takes a Date object and returns an array of Date objects representing the calendar days until that date.
+`GetDatesUntil(endDate[, startDate])`
+
+Takes an end date and an (optional) start date, returns an array of Date objects representing the calendar days until the end date.
+
+If no start date is given today will be assumed. If the end date is the same as the start date, or before the start date, an empty array will be returned.
 
 ## Install
 

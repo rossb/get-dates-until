@@ -1,7 +1,7 @@
 {
   "name": "get-dates-until",
   "version": "1.0.0",
-  "description": "Returns an array of Date objects representing the calendar days until a given date.",
+  "description": "Takes an end date and an (optional) start date, returns an array of Date objects representing the calendar days until the end date.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
