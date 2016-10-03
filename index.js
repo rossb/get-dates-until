@@ -1,5 +1,5 @@
-const GetMidnightDate = require('./GetMidnightDate.js');
-const GetNextDate = require('./GetNextDate.js');
+const GetMidnightDate = require('get-midnight-date');
+const GetNextDate = require('get-next-date');
 
 function GetDatesUntil(endDate, startDate) {
 
