@@ -1,6 +1,6 @@
 # get-dates-until
 
-`GetDatesUntil(endDate[, startDate])`
+GetDatesUntil(endDate[, startDate])
 
 Takes an end date and an (optional) start date, returns an array of Date objects representing the calendar days until the end date.
 

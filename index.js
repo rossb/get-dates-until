@@ -3,6 +3,10 @@ const GetNextDate = require('get-next-date');
 
 function GetDatesUntil(endDate, startDate) {
 
+  if (endDate === undefined) {
+    throw new Error('End date must be supplied.')
+  }
+
 	let datesUntil = [];
 
 	let startDateObj = (startDate === undefined)

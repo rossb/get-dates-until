@@ -4,16 +4,13 @@
   "description": "Takes an end date and an (optional) start date, returns an array of Date objects representing the calendar days until the end date.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Ross Barnes <r@rossb.biz>",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.1.0"
-  },
-  "dependencies": {
-    "chai": "^3.5.0"
   },
   "repository": {
     "type": "git",
@@ -22,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/rossb/get-dates-until/issues"
   },
-  "homepage": "https://github.com/rossb/get-dates-until#readme"
+  "homepage": "https://github.com/rossb/get-dates-until#readme",
+  "dependencies": {
+    "get-midnight-date": "^1.0.0",
+    "get-next-date": "^1.0.0"
+  }
 }
